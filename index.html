@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studika</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar-top">
+        <a class="logo" href="#">
+          <img
+            class="logo__image"
+            src="img/logo-studika.svg"
+            alt="Logo: Studika"
+          />
+        </a>
+        <div class="city navbar__city">
+          <a class="city__icon" href="#">
+            <img
+              class="city__icon-link"
+              src="img/compass.svg"
+              alt="Icon: Compass"
+            />
+          </a>
+          <span class="city__name">Любой регион</span>
+        </div>
+        <!-- navbar-city -->
+        <form class="search navbar__search">
+          <img
+            class="search__icon"
+            src="img/search-icon.svg"
+            alt="Icon: Search"
+          />
+          <input
+            class="searc__input"
+            type="text"
+            placeholder="Учебное заведение, специальность или профессия"
+          />
+        </form>
+        <!-- navbar-search -->
+        <div class="favorites navbar-favorites">
+          <a class="favorites__icon" href="#">
+            <img
+              class="farites__icon-link"
+              src="img/favorites.svg"
+              alt="Icon: Favorites"
+            />
+          </a>
+          <span class="favorites__counter">0</span>
+        </div>
+        <!-- navbar-favorites -->
+        <button class="navbar__login" style="display: none">Войти</button>
+        <a class="user navbar__user" href="#">
+          <span class="user__name">Екатерина</span>
+          <img
+            class="user__avatar"
+            src="img/user-avatar.png"
+            alt="Avatar: Ekaterina"
+          />
+        </a>
+      </div>
+      <!-- navbar-top -->
+      <div class="navbar-bottom"></div>
+      <!-- navbar-bottom -->
+    </header>
+  </body>
 </html>
