@@ -5,27 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studika</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="navbar">
-      <div class="navbar-top">
+      <div class="navbar__top">
         <a class="logo" href="#">
           <img
             class="logo__image"
             src="img/logo-studika.svg"
             alt="Logo: Studika"
-          />
-        </a>
+        /></a>
         <div class="city navbar__city">
           <a class="city__icon" href="#">
             <img
               class="city__icon-link"
               src="img/compass.svg"
               alt="Icon: Compass"
-            />
-          </a>
-          <span class="city__name">Любой регион</span>
+          /></a>
+          <span class="city__name">Москва</span>
         </div>
         <!-- navbar-city -->
         <form class="search navbar__search">
@@ -35,21 +33,20 @@
             alt="Icon: Search"
           />
           <input
-            class="searc__input"
+            class="search__input"
             type="text"
             placeholder="Учебное заведение, специальность или профессия"
           />
         </form>
         <!-- navbar-search -->
-        <div class="favorites navbar-favorites">
+        <div class="favorites navbar__favorites">
           <a class="favorites__icon" href="#">
             <img
-              class="farites__icon-link"
+              class="favorites__icon-link"
               src="img/favorites.svg"
               alt="Icon: Favorites"
-            />
-          </a>
-          <span class="favorites__counter">0</span>
+          /></a>
+          <span class="favorites__counter">1</span>
         </div>
         <!-- navbar-favorites -->
         <button class="navbar__login" style="display: none">Войти</button>
@@ -62,9 +59,9 @@
           />
         </a>
       </div>
-      <!-- navbar-top -->
-      <div class="navbar-bottom"></div>
-      <!-- navbar-bottom -->
+      <!-- navbar__top -->
+      <div class="navbar__bottom"></div>
+      <!-- navbar__bottom -->
     </header>
   </body>
 </html>
